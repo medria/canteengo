@@ -4,7 +4,7 @@ part 'menu_item.freezed.dart';
 part 'menu_item.g.dart';
 
 @freezed
-class MenuItem with _$MenuItem {
+abstract class MenuItem with _$MenuItem {
   const factory MenuItem({
     required String id,
     required String name,
@@ -14,6 +14,7 @@ class MenuItem with _$MenuItem {
     @Default('food') String category,
     @Default(0) int quantity,
   }) = _MenuItem;
+
   factory MenuItem.fromJson(Map<String, dynamic> json) =>
       _$MenuItemFromJson(json);
 }
