@@ -11,11 +11,11 @@ class MenuScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          _MenuCard(title: 'Item 1', price: 10000),
-          _MenuCard(title: 'Item 2', price: 20000),
-          _MenuCard(title: 'Item 3', price: 30000),
-          _MenuCard(title: 'Item 4', price: 40000),
-          _MenuCard(title: 'Item 5', price: 50000),
+          _MenuCard(title: 'Nasi Goreng', price: 10000),
+          _MenuCard(title: 'Mie Ayam', price: 20000),
+          _MenuCard(title: 'Nasi Bakar', price: 30000),
+          _MenuCard(title: 'Nasi Kuning', price: 40000),
+          _MenuCard(title: 'Nasi Uduk', price: 50000),
           const SizedBox(height: 16),
           Row(
             children: [
@@ -37,7 +37,7 @@ class MenuScreen extends StatelessWidget {
 }
 
 class _MenuCard extends StatelessWidget {
-  const _MenuCard({super.key, required this.title, required this.price});
+  const _MenuCard({required this.title, required this.price});
 
   final String title;
   final int price;
