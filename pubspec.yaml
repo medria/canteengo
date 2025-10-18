@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_riverpod: ^3.0.3
+  go_router: ^16.2.5
 
 dev_dependencies:
   custom_lint: ^0.8.0
