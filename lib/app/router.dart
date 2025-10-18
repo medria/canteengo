@@ -1,6 +1,6 @@
-import 'package:canteengo/cart_screen.dart';
-import 'package:canteengo/menu_screen.dart';
-import 'package:canteengo/orders_screen.dart';
+import 'package:canteengo/screens/cart_screen.dart';
+import 'package:canteengo/screens/menu_screen.dart';
+import 'package:canteengo/screens/orders_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final router = GoRouter(
