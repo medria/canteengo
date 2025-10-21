@@ -1,3 +1,3 @@
 # canteengo
 
-A new Flutter project.
+Aplikasi pemesanan makanan dari kantin Universitas Pakuan
